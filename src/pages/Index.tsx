@@ -9,31 +9,24 @@ const Index = () => {
     title: string;
   } | null>(null);
 
-  // Демо-проекты
+  // Реальные проекты
   const projects = [
     {
-      title: "Личный сайт",
-      description: "Современный портфолио с анимациями и адаптивным дизайном",
+      title: "HTML Snake Game",
+      description:
+        "Классическая игра Змейка с Matrix-дизайном и неоновой подсветкой",
       technologies: ["HTML", "CSS", "JavaScript"],
       screenshot:
-        "https://images.unsplash.com/photo-1547658719-da2b51169166?w=400&h=300&fit=crop",
-      htmlUrl: "https://example.com/project1",
+        "https://images.unsplash.com/photo-1538481199705-c710c4e965fc?w=400&h=300&fit=crop",
+      htmlUrl: "/snake-game.html",
     },
     {
-      title: "Интернет-магазин",
-      description: "E-commerce платформа с корзиной и системой оплаты",
-      technologies: ["React", "Node.js", "MongoDB"],
+      title: "HTML Tetris Game",
+      description: "Полнофункциональный Тетрис с хакерской темой и счетом",
+      technologies: ["HTML", "CSS", "JavaScript"],
       screenshot:
-        "https://images.unsplash.com/photo-1556742049-0cfed4f6a45d?w=400&h=300&fit=crop",
-      htmlUrl: "https://example.com/project2",
-    },
-    {
-      title: "Админ-панель",
-      description: "Система управления контентом с аналитикой",
-      technologies: ["Vue.js", "PHP", "MySQL"],
-      screenshot:
-        "https://images.unsplash.com/photo-1551288049-bebda4e38f71?w=400&h=300&fit=crop",
-      htmlUrl: "https://example.com/project3",
+        "https://images.unsplash.com/photo-1606144042614-b2417e99c4e3?w=400&h=300&fit=crop",
+      htmlUrl: "/tetris-game.html",
     },
   ];
 
